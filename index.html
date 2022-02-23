@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Adhérents</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           M2L
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="active" href="#">Ajouter</a></li>
+           <li><a href="#">Adhérents</a></li>
+           <li><a href="#">Groupes</a></li>
+           <li><a href="#">Planning</a></li>
+           <li><a href="#">Déconnexion</a></li>
+        </ul>
+     </nav>
+
+    <form>
+        <input type="text" placeholder="Nom" id="nom">
+        <input type="text" placeholder="Prénom" id="prenom">
+        <input type="text" placeholder="Date de Naissance" id="age">
+        <button id="valider">Ajouter</button>
+
+        <div id="allUsers">
+
+        </div>
+    </form>
+    <script src="js/script.js"></script>
+    <footer>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022  </p>
+        </div>
+    </footer>
+</body>
+</html>
